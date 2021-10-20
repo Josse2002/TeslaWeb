@@ -1,0 +1,26 @@
+@media(max-width: 683px) {
+    .header .navbar-buttons a{
+        display: none;
+    }
+    .navbar-buttons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header .navbar-buttons a.menu{
+        display: flex;
+        color: white;
+        position: relative;
+    font-size: 27px;
+    }
+    .header img{
+        right: 19px;
+        position: relative;
+    }
+    .slogan h2{
+        color: white;
+    text-align: center;
+    font-size: 31px;
+    }
+}

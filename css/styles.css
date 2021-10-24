@@ -117,6 +117,7 @@ body{
     /* border-radius: 10px; */
     /* padding: 20px; */
     position: absolute;
+    /*CAMBIOS */
     height: 100vh;
     top: 0;
     z-index: 2;

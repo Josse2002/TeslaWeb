@@ -40,7 +40,7 @@
       background: url(img/fondo.jpg);
       background-size: cover;
       height: 40vh;
-      clip-path: polygon(50% 0%, 100% 0, 100% 68%, 0 100%, 0 100%, 0 0);
+     
     }
   }
   @media(max-width: 669px){
@@ -48,7 +48,7 @@
       background: url(img/fondo.jpg);
       background-size: cover;
       height: 110vh;
-      clip-path: polygon(50% 0%, 100% 0, 100% 68%, 0 100%, 0 100%, 0 0);
+
     }
     .btnSend{
       font-size: 18px!important;

@@ -26,30 +26,9 @@
     font-size: 31px;
     }
 }
- 
-@media(max-width: 1400px){
-    header{
-      background: url(img/fondo.jpg);
-      background-size: cover;
-      height: 100vh;
-      clip-path: polygon(50% 0%, 100% 0, 100% 68%, 0 100%, 0 100%, 0 0);
-    }
-  }
-  @media(max-width: 1024px){
-    header{
-      background: url(img/fondo.jpg);
-      background-size: cover;
-      height: 40vh;
-     
-    }
-  }
-  @media(max-width: 669px){
-    header{
-      background: url(img/fondo.jpg);
-      background-size: cover;
-      height: 110vh;
 
-    }
+  @media(max-width: 669px){
+   
     .btnSend{
       font-size: 18px!important;
     }

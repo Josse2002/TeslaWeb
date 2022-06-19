@@ -168,10 +168,54 @@ body{
     cursor: pointer ;
 }
 /* "WHAT IS TESLA?" SECTION STYLE */
+.tittle{
+    color: white;
+}
+.texto-sl{
+    color: rgb(185, 185, 185);
+    width: 50%;
+    margin: 2% 25%;
+    text-align: center;
+}
+/*CARD SERVICES*/
+.cards-services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 3% 10%;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(185, 185, 185);
+    background-color: #0c0c0b;
+    padding: 19px;
+    transition: .5s;
+    border-radius: 10px;
+    text-align:center;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 220px;
+}
+.card .icon{
+    font-size: 81px;
+}
+.card h3{
+    font-size: 22px;
+}
 
-
-
-
+.card:hover{
+    transform: translateY(-5px);
+    transition: .3s;
+    box-shadow: 0px -1px 20px -1px rgba(222,222,222,0.04);
+    -webkit-box-shadow: 0px -1px 20px -1px rgba(222,222,222,0.04);
+    -moz-box-shadow: 0px -1px 20px -1px rgba(222,222,222,0.04);
+}
 
 
 /* FOOTER STYLE*/

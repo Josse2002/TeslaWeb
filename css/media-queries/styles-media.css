@@ -26,9 +26,14 @@
     font-size: 31px;
     }
 
-    .down-button{
-        margin-top: 127px;
-    }
+    .nave{
+      width: 100%;
+      display: block;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+  }
 }
 
   @media(max-width: 669px){

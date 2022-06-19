@@ -1,0 +1,11 @@
+/*PREFIX THE STYLE*/
+.header{
+    background: none;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    height: auto;
+}
+.information h2{
+    margin-top: 40px;
+}

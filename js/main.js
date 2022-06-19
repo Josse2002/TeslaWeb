@@ -24,3 +24,11 @@ window.addEventListener("resize", function(){
     menu.style.display = "none"; 
   }
 }, false);
+
+//SI SE LE DA CLIC AL BOTON DE MOVER ABAJO
+
+let buttonDown = document.getElementById("button-down");
+
+buttonDown.addEventListener("click", function () {
+  window.scroll(0, 650);
+});

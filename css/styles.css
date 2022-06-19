@@ -167,92 +167,14 @@ body{
     color: white;
     cursor: pointer ;
 }
+/* "WHAT IS TESLA?" SECTION STYLE */
 
-.information{
-    text-align:  center;
-    color:  white;
-    margin-top: 10px;
-}
 
-.cards-information{
-    
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    flex-wrap: wrap;
-    margin: 0px 20px;
-}
-.card-information{
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: rgb(30, 30, 30);
-    padding: 15px;
-    border-radius: 10px;
-    transition: .2s;
-    cursor: pointer;
-}
-.card-information h2{
-   text-align: center;
-   margin-bottom: 10px;
-}
 
-.card-information p{
-    text-align: left;
-    color: rgb(175, 175, 175);
-}
 
-.card-information p.price{
-    font-size: 20px;
-}
-.card-information p.price span{
-   font-weight: bold;
-}
 
-.card-information:hover{
-    transform: scale(1.04);
-    transition: 0.2s;
 
-}
-
-.contacto{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-between;
-    width: 100%;
-    margin: 2% 0%;
-  }
-  .IMG_Contacto img{
-    width: 100%;
-    clip-path: polygon(50% 0%, 100% 0, 100% 0, 50% 100%, 0 100%, 0 0);
-  }
-  .IMG_Contacto{
-    width: 50%;
-  }
-  .Informacion_CT{
-    width: 40%;
-    margin:0% 5%;
-  }
-  .Informacion_CT h2{
-    font-size: 2rem;
-    text-align:center;
-    margin-bottom:20px;
-  }
-  .Informacion_CT a{
-  color: #6b6b6b;
-  font-weight: bold;
-  }
-  .Informacion_CT .enlace_todo a{
-    color: #ffffff;
-    font-weight: bold;
-    }
-
-  
+/* FOOTER STYLE*/
   .foot{
     width: 100%;
     background: black;

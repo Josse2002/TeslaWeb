@@ -85,3 +85,71 @@
       }
     
   }
+
+  @media(max-width:1119px){
+    .contact{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;  
+      
+  }
+  .contact .info{
+    
+    color: rgb(255, 255, 255);
+
+    
+}
+.contact .formContact{
+  width: 70%;
+  margin: 0% 15%;
+  color: #cfcfcf;
+}
+  .contact .formContact{
+    width: 90%;
+    margin: 0% 5%;
+    color: #cfcfcf;
+}
+.contact .formContact form div{
+    margin: 10px 0px;
+}
+.contact .formContact form div p{
+    margin-left: 3px;
+    margin-bottom: 1px;
+}
+.contact .formContact form div input, .contact .formContact form div textarea{
+    width: 100%;
+    padding: 5px 20px;
+    border: none;
+    background-color:rgb(63, 63, 63);
+    color: white;
+    outline: none;
+    border-radius: 10px;
+}
+  }
+
+  @media(max-width: 889px){
+    .contact .info{
+      width: 70%;
+    margin: 0% 15%;
+    }
+    .contact .info h2{
+      font-size: 40px;
+  }
+    .contact .info h3{
+      font-size: 18px;
+      margin: 20px 0px;
+  }
+    .contact .formContact{
+      width: 90%;
+      margin: 0% 5%;
+      color: #cfcfcf;
+    }
+    .texto-sl {
+      color: rgb(185, 185, 185);
+      width: 90%;
+      margin: 2% 5%;
+      text-align: center;
+  }
+    
+  }

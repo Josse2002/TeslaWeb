@@ -1,18 +1,20 @@
 /* General Code */
-body{
+body {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: #181613;
 }
+
 :root {
     --main-font-links-color: rgb(161, 161, 161);
     --main-font-size-links: 19px;
 }
+
 /* Header */
 
-.nave{
+.nave {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -21,28 +23,32 @@ body{
     padding: 10px;
 }
 
-.header{
+.header {
     background: url(../images/fondo3.png);
     width: 100%;
     height: 700px;
     background-size: cover;
     align-items: center;
 }
-.header img{
+
+.header img {
     width: 190px;
 }
-.header .navbar-buttons a{
+
+.header .navbar-buttons a {
     text-decoration: none;
     margin: 0px 10px;
     color: var(--main-font-links-color);
     font-size: var(--main-font-size-links);
     transition: .5s;
 }
-.header .navbar-buttons a:hover{
+
+.header .navbar-buttons a:hover {
     color: rgb(255, 255, 255);
     transition: .5s;
 }
-.image-background{
+
+.image-background {
     background: url(../images/background.jpg);
     height: 500px;
     display: flex;
@@ -50,22 +56,26 @@ body{
     background-attachment: fixed;
     justify-content: center;
 }
-.slogan{
-   margin-top: 100px;
+
+.slogan {
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.slogan h2{
+
+.slogan h2 {
     color: white;
-    text-align: center;    
+    text-align: center;
     font-size: 40px;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.slogan button{
+
+.slogan button {
     margin-top: 20px;
     background: none;
     border: 2px solid white;
@@ -74,7 +84,8 @@ body{
     font-size: 20px;
     border-radius: 5px;
 }
-.slogan button:hover{
+
+.slogan button:hover {
     margin-top: 20px;
     background: white;
     border: 2px solid white;
@@ -84,7 +95,7 @@ body{
     border-radius: 5px;
 }
 
-.down-button{
+.down-button {
     color: white;
     font-size: xx-large;
     text-align: center;
@@ -98,18 +109,20 @@ body{
 }
 
 @keyframes down-button-animation {
-    0%{
-       transform: translateY(0px);      
+    0% {
+        transform: translateY(0px);
     }
-    50%{
-        transform: translateY(10px);   
+
+    50% {
+        transform: translateY(10px);
     }
-    100%{
-        transform: translateY(0px);   
+
+    100% {
+        transform: translateY(0px);
     }
 }
 
-.buttons{
+.buttons {
     background: black;
     width: 100%;
     display: flex;
@@ -127,58 +140,70 @@ body{
 }
 
 @keyframes mostrarMenu {
-    0%{
-        left: -1000px;    
+    0% {
+        left: -1000px;
     }
-    50%{
-        left: 200px;   
+
+    50% {
+        left: 200px;
     }
-    100%{
-        left: 0px;     
+
+    100% {
+        left: 0px;
     }
 }
+
 @keyframes cerrarMenu {
-    0%{
-        left: 0px;    
+    0% {
+        left: 0px;
     }
-    50%{
-        left: -200px;   
+
+    50% {
+        left: -200px;
     }
-    100%{
-        left: -1000px;     
+
+    100% {
+        left: -1000px;
     }
 }
-.buttons h6{
+
+.buttons h6 {
     text-align: center;
     margin-top: 60px;
 }
-.buttons p{
-   text-align: center;
+
+.buttons p {
+    text-align: center;
 }
-.buttons a{
+
+.buttons a {
     text-decoration: none;
     color: white;
     font-size: 20px;
     margin: 31px;
     text-align: center;
 }
-.buttons p.close-menu{
+
+.buttons p.close-menu {
     font-size: 35px;
     color: white;
-    cursor: pointer ;
+    cursor: pointer;
 }
+
 /* "WHAT IS TESLA?" SECTION STYLE */
-.tittle{
+.tittle {
     color: white;
 }
-.texto-sl{
+
+.texto-sl {
     color: rgb(185, 185, 185);
     width: 50%;
     margin: 2% 25%;
     text-align: center;
 }
+
 /*CARD SERVICES*/
-.cards-services{
+.cards-services {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -187,7 +212,8 @@ body{
     margin: 3% 10%;
     flex-wrap: wrap;
 }
-.card{
+
+.card {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -197,31 +223,34 @@ body{
     padding: 19px;
     transition: .5s;
     border-radius: 10px;
-    text-align:center;
+    text-align: center;
     flex-wrap: wrap;
     margin: 10px;
     width: 220px;
 }
-.card .icon{
+
+.card .icon {
     font-size: 81px;
 }
-.card h3{
+
+.card h3 {
     font-size: 22px;
 }
 
-.card:hover{
+.card:hover {
     transform: translateY(-5px);
     transition: .3s;
-    box-shadow: 0px -1px 20px -1px rgba(222,222,222,0.04);
-    -webkit-box-shadow: 0px -1px 20px -1px rgba(222,222,222,0.04);
-    -moz-box-shadow: 0px -1px 20px -1px rgba(222,222,222,0.04);
+    box-shadow: 0px -1px 20px -1px rgba(222, 222, 222, 0.04);
+    -webkit-box-shadow: 0px -1px 20px -1px rgba(222, 222, 222, 0.04);
+    -moz-box-shadow: 0px -1px 20px -1px rgba(222, 222, 222, 0.04);
 }
+
 /*Work With U space*/
-.workWithU{
+.workWithU {
     background-image: url("../images//backgroundWWM.png");
-   background-position: center;
-   background-size: 50%;
-   margin: 30px 0px;
+    background-position: center;
+    background-size: 50%;
+    margin: 30px 0px;
     height: 300px;
     display: flex;
     flex-direction: column;
@@ -229,12 +258,14 @@ body{
     text-align: center;
     color: white;
 }
-.workWithU h3{
+
+.workWithU h3 {
     margin: 0% 10%;
 }
+
 /*OurPortfolio*/
 
-.card-porfolio-cont{
+.card-porfolio-cont {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -243,7 +274,8 @@ body{
     margin: 0% 5%;
     width: 90%;
 }
-.cardPortfolio{
+
+.cardPortfolio {
     width: 350px;
     background-color: #0c0c0b;
     border-radius: 10px;
@@ -252,45 +284,52 @@ body{
 
 }
 
-.cardPortfolio .imagePortfolio img{
+.cardPortfolio .imagePortfolio img {
     width: 100%;
     object-fit: cover;
 }
-.cardPortfolio .textPortfolio{
+
+.cardPortfolio .textPortfolio {
     padding: 10px;
 }
-.cardPortfolio .textPortfolio h2{
+
+.cardPortfolio .textPortfolio h2 {
     color: rgb(255, 255, 255);
     font-size: 25px;
 }
-.cardPortfolio .textPortfolio p{
+
+.cardPortfolio .textPortfolio p {
     color: rgb(58, 58, 58);
 }
-.cardPortfolio button{
+
+.cardPortfolio button {
     border: none;
     color: #cfcfcf;
     font-weight: bold;
-    background-color:rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
     padding: 5px 7px;
     border-radius: 10px;
 }
-.buttonMore{
+
+.buttonMore {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-button.buttonVm{
+
+button.buttonVm {
     border: none;
     color: #cfcfcf;
     font-weight: bold;
-    background-color:rgb(43, 43, 43);
+    background-color: rgb(43, 43, 43);
     padding: 5px 7px;
     text-align: center;
     border-radius: 10px;
     margin: 10px;
 }
+
 /* CONTACT*/
-.contact{
+.contact {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -298,72 +337,85 @@ button.buttonVm{
     width: 80%;
     margin: 2% 10%;
 }
-.contact .info{
+
+.contact .info {
     width: 40%;
     color: rgb(255, 255, 255);
     margin-left: 10%;
 }
-.contact .info h3{
+
+.contact .info h3 {
     font-size: 20px;
     margin: 20px 0px;
 }
-.contact .info h2{
+
+.contact .info h2 {
     font-size: 50px;
 }
 
-.contact .formContact{
+.contact .formContact {
     width: 60%;
     color: #cfcfcf;
 }
-.contact .formContact form div{
+
+.contact .formContact form div {
     margin: 10px 0px;
 }
-.contact .formContact form div p{
+
+.contact .formContact form div p {
     margin-left: 3px;
     margin-bottom: 1px;
 }
-.contact .formContact form div input, .contact .formContact form div textarea{
+
+.contact .formContact form div input,
+.contact .formContact form div textarea {
     width: 80%;
     padding: 5px 20px;
     border: none;
-    background-color:rgb(63, 63, 63);
+    background-color: rgb(63, 63, 63);
     color: white;
     outline: none;
     border-radius: 10px;
 }
+
 /* FOOTER STYLE*/
-  .foot{
+.foot {
     width: 100%;
     background: black;
     font-family: 'Raleway', sans-serif;
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
-  .foot p{
-    color:white;
+}
+
+.foot p {
+    color: white;
     margin-bottom: 0px;
-    text-align:center;
+    text-align: center;
     margin-top: 20px;
-  }
-  .foot p.Icono{
-    font-size:30px;
-    margin-top:10px;
-  }
-  .social_icons a{
-   color:white;
-   font-size:25px;
-   margin: 0px 7px;
-  }
-  .social_icons a:hover{
-    color:rgb(0, 68, 255);
-    font-size:25px;
+}
+
+.foot p.Icono {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.social_icons a {
+    color: white;
+    font-size: 25px;
     margin: 0px 7px;
-   }
-  .social_icons{
+}
+
+.social_icons a:hover {
+    color: rgb(0, 68, 255);
+    font-size: 25px;
+    margin: 0px 7px;
+}
+
+.social_icons {
     margin: 10px 0px;
-  }
- 
-  .contacto{
-      color: rgb(145, 145, 145);
-  }
+}
+
+.contacto {
+    color: rgb(145, 145, 145);
+}

@@ -180,4 +180,8 @@
     font-size: 22px;
     text-align: center;
 }
+.contact .info h3 {
+  font-size: 13px;
+  margin: 20px 0px;
+}
 }

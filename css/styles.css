@@ -307,6 +307,9 @@ button.buttonVm{
     font-size: 20px;
     margin: 20px 0px;
 }
+.contact .info h2{
+    font-size: 50px;
+}
 
 .contact .formContact{
     width: 60%;

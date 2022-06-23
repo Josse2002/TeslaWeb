@@ -249,12 +249,12 @@ button.buttonVm {
   color: white;
   font-size: xx-large;
   text-align: center;
-  margin-top: 160px;
+  margin-top: 140px;
   cursor: pointer;
   animation-iteration-count: infinite;
   animation-name: down-button-animation;
   animation-duration: 1.5s;
-  transition: .5s;
+  transition: all 0.5s ease 0s;
   animation-timing-function: ease-in;
 }
 }

@@ -302,7 +302,7 @@ body {
     color: rgb(58, 58, 58);
 }
 
-.cardPortfolio button {
+button.buttonPort {
     border: none;
     color: #cfcfcf;
     font-weight: bold;
@@ -418,4 +418,64 @@ button.buttonVm {
 
 .contacto {
     color: rgb(145, 145, 145);
+}
+.project{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.infoProject{
+    width: 50%;
+    color: #cfcfcf;
+}
+.infoProject h3{
+    letter-spacing: 4px;
+}
+.imageProject{
+    width: 50%;
+    animation: 
+    animationImage
+    4s
+    ease-out
+    0s
+    alternate
+    infinite
+    none
+    running;
+    margin: 3% 0%;
+
+}
+.imageProject img{
+    width: 100%;
+    
+    transition: ease;
+}
+img.imageRotate{
+    transform: scaleX(-1);
+}
+.infoProject button{
+    margin: 0px;
+}
+
+@keyframes animationImage{
+    0%{
+        transform: translateY(-7px);
+    }
+
+    50%{
+        transform: translateY(0px);
+    }
+    100%{
+        transform: translateY(-7px);
+    }
+}
+/*PREFIX THE STYLE*/
+.headernew{
+    background: none;
+    width: 100%;
+    background-size: cover;
+    align-items: center;
+    height: auto;
 }

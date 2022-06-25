@@ -258,3 +258,24 @@ button.buttonVm {
   animation-timing-function: ease-in;
 }
 }
+@media (max-width: 992px){
+  .project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .imageProject {
+    width: 70%;
+    animation: animationImage 4s ease-out 0s alternate infinite none running;
+    margin: 3% 0%;
+}
+.infoProject {
+  width: 80%;
+  margin: 0% 10%;
+  color: #cfcfcf;
+}
+.infoProject h3{
+ text-align: center;
+}
+}

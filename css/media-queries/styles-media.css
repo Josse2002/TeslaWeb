@@ -279,3 +279,26 @@ button.buttonVm {
  text-align: center;
 }
 }
+@media (max-width: 975px){
+  .FrecuentQuestions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 2% 10%;
+}
+.informationQuestions{
+  width: 100%;
+}
+.question a{
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  
+  font-weight:600;
+}
+.logoQ{
+  display: none;
+}
+}

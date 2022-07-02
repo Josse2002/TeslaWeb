@@ -588,3 +588,42 @@ img.imageRotate{
 .hide{
     display: none;
 }
+.hecho{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 533px;
+    animation-name: animacionEnviado;
+    animation-duration: 4s;
+    
+}
+.hecho h3{
+    color: rgb(113, 255, 113);
+    font-size: 30px;
+}
+
+
+
+@keyframes animacionEnviado {
+    0%{
+        display: flex;
+        transform: translateY(84px);
+    }
+
+    20%{
+        display: flex;
+        transform: translateY(0px);
+    }
+    80%{
+        display: flex;
+        transform: translateY(0px);
+    }
+    100%{
+        display: flex;
+        transform: translateY(84px);
+    }
+}
